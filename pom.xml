@@ -18,6 +18,10 @@
         <maven.surefire.version>2.19.1</maven.surefire.version>
 
         <reactor.version>3.1.0.RELEASE</reactor.version>
+        <commons-validator.version>1.6</commons-validator.version>
+        <hibernate-validator.version>6.0.2.Final</hibernate-validator.version>
+
+        <lang-library.version>1.0.1-SNAPSHOT</lang-library.version>
 
         <spek.version>1.1.4</spek.version>
         <kotlin.test.version>2.0.5</kotlin.test.version>
@@ -40,6 +44,22 @@
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-core</artifactId>
             <version>${reactor.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <version>${commons-validator.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${hibernate-validator.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.i101.library</groupId>
+            <artifactId>lang-library</artifactId>
+            <version>${lang-library.version}</version>
         </dependency>
 
         <dependency>
